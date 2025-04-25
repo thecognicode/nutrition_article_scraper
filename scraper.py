@@ -8,12 +8,10 @@ from collections import Counter
 
 nlp = spacy.load("en_core_web_sm")
 
-
 urls = [
     'https://www.bbc.com/news/technology',
     'https://www.theguardian.com/technology',
 ]
-
 
 terms = [
     'protein', 'vitamin', 'fat', 'carbohydrate', 'fiber', 'nutrient', 'energy', 'mineral',
@@ -21,7 +19,6 @@ terms = [
     'amino acid', 'antioxidant', 'dietary supplement', 'metabolism', 'micronutrient',
     'macronutrient', 'healthy diet', 'nutritional value', 'food intake', 'energy intake'
 ]
-
 
 
 def get_article_links(base_url):
