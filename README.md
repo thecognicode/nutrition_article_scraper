@@ -1,4 +1,4 @@
- Nutrition Article Scraper
+# Nutrition Article Scraper
 
 This is a Python script that scans news articles from popular websites, looking for information related to nutrition terms. It then visualizes the frequency of these terms using a bar chart.
 
