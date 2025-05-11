@@ -33,7 +33,8 @@ beautifulsoup4
 spacy
 matplotlib
 
-Additionally, you'll need to install the en_core_web_sm model for spaCy
+Additionally, you'll need to install the en_core_web_sm model for spaCy 
+
 To use the scraper, simply run your Python script
 
 Output
