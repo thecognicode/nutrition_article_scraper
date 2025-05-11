@@ -37,7 +37,7 @@ Additionally, you'll need to install the en_core_web_sm model for spaCy
 
 To use the scraper, simply run your Python script
 
-Output
+## Output
 
 The script will show a bar chart of the nutrition terms and save it as `nutrition_terms.png`.
 
