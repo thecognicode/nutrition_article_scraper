@@ -9,11 +9,11 @@ This is a Python script that scans news articles from popular websites, looking 
 - Visualizes the frequency of nutrition terms found in the articles.
 
 ## How It Works
-1. The script visits the given URLs (BBC and The Guardian).
-2. It collects article links from the main pages.
-3. Then, it fetches the content of each article and looks for key terms related to nutrition, such as `protein`, `vitamin`, `fat`, etc.
-4. If any of these terms are found in the article, the script extracts the sentence containing the term.
-5. Finally, the script creates a bar chart showing how many times each term appears in the scraped articles.
+- The script visits the given URLs (BBC and The Guardian).
+- It collects article links from the main pages.
+- Then, it fetches the content of each article and looks for key terms related to nutrition, such as `protein`, `vitamin`, `fat`, etc.
+- If any of these terms are found in the article, the script extracts the sentence containing the term.
+- Finally, the script creates a bar chart showing how many times each term appears in the scraped articles.
 
 ## Tools used:
 - Python 3.x
