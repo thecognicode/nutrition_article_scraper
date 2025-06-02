@@ -39,7 +39,7 @@ results = []
 
 
 for site in urls:
-    print(f"\n Сканируем: {site}")
+    print(f"\n Анализ сайта: {site}")
     for link in get_article_links(site):
         text = extract_text(link)
         if any(term in text.lower() for term in terms):
